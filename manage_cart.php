@@ -6,7 +6,7 @@ session_start();
         //echo 'hii1';
         if(isset($_POST['Add_to_Cart']))
         {
-            //echo 'hiii2';
+
             if(isset($_SESSION['cart']))
             {
                 $myitems=array_column($_SESSION['cart'],'Item_Name');
